@@ -17,9 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSString (Regex)
 - (MatchingCase)matchWithRegex:(NSString *)regex;
 - (MatchingCase)dy_isMobilePhone;
-- (MatchingCase)dy_isEmail;
-- (MatchingCase)dy_isPassword;
 - (MatchingCase)dy_isTelephone;
+- (MatchingCase)dy_isEmail;
 - (MatchingCase)dy_isIdentityCard;
 @end
 NS_ASSUME_NONNULL_END

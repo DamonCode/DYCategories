@@ -23,6 +23,7 @@
 		E42516FC1F0FEA3200D166ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42516FB1F0FEA3200D166ED /* QuartzCore.framework */; };
 		E42516FF1F0FEDB400D166ED /* NSDictionary+DYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E42516FE1F0FEDB400D166ED /* NSDictionary+DYAdditions.m */; };
 		E4296CB31F20582800D88E34 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = E4296CB21F20582700D88E34 /* NSString+Regex.m */; };
+		E45D9A9F1F272C4C000C3C0D /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D9A9E1F272C4C000C3C0D /* NSString+Encrypt.m */; };
 		E49A90981F0F76E50001F426 /* DYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A90971F0F76E50001F426 /* DYUtilities.m */; };
 		E4B939B41F0894D500994915 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B939B31F0894D500994915 /* UIView+Snapshot.m */; };
 		E4B939B71F0896E600994915 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B939B61F0896E600994915 /* UIView+Shadow.m */; };
@@ -71,6 +72,8 @@
 		E42516FE1F0FEDB400D166ED /* NSDictionary+DYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DYAdditions.m"; sourceTree = "<group>"; };
 		E4296CB11F20582700D88E34 /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
 		E4296CB21F20582700D88E34 /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		E45D9A9D1F272C4C000C3C0D /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		E45D9A9E1F272C4C000C3C0D /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
 		E49A90961F0F76E50001F426 /* DYUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYUtilities.h; sourceTree = "<group>"; };
 		E49A90971F0F76E50001F426 /* DYUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYUtilities.m; sourceTree = "<group>"; };
 		E4B939B21F0894D500994915 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
@@ -218,6 +221,8 @@
 			children = (
 				E4296CB11F20582700D88E34 /* NSString+Regex.h */,
 				E4296CB21F20582700D88E34 /* NSString+Regex.m */,
+				E45D9A9D1F272C4C000C3C0D /* NSString+Encrypt.h */,
+				E45D9A9E1F272C4C000C3C0D /* NSString+Encrypt.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45D9A9F1F272C4C000C3C0D /* NSString+Encrypt.m in Sources */,
 				E4FF73E91F0640E800BF449B /* UIView+Toast.m in Sources */,
 				E4FF73B91F0625C100BF449B /* UIView+Borders.m in Sources */,
 				E4B939C11F08E7B400994915 /* UIApplication+Sanbox.m in Sources */,
